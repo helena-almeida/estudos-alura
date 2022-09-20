@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    function geração(primeira) {
+        document.write(primeira);
+        pulaLinha
+    }
+
+    var idadecomfilho = 28;
+
+    var anoAtual = 2022;
+
+    var quantidadeGerações = (anoAtual - 1500) / idadecomfilho;
+    
+    mostra("Desde 1500 existem "+ Math.round(quantidadeGerações) +  " gerações de brasileiros.");
+
+
+</script>
